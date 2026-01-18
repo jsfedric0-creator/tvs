@@ -1,0 +1,33 @@
+# Python Requirements for Kids TV Station
+
+# الويب و API
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-RESTful==0.3.10
+requests==2.31.0
+
+# الجدولة
+schedule==1.2.0
+python-crontab==3.0.0
+pytz==2023.3
+
+# الوسائط والبث
+moviepy==1.0.3
+Pillow==10.0.0
+pydub==0.25.1
+
+# قواعد البيانات (اختياري)
+psycopg2-binary==2.9.7
+SQLAlchemy==2.0.19
+
+# المراقبة واللوجات
+loguru==0.7.2
+prometheus-client==0.17.1
+
+# أدوات مساعدة
+python-dotenv==1.0.0
+pyyaml==6.0.1
+redis==5.0.0
+
+# الاختبارات (للتنمية فقط)
+pytest==7.4.2
